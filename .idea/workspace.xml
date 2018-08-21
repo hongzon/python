@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b995d1e7-2cb6-4b7d-bf4d-64b863bcb73a" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/collections/demo.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day17/auxiliary_module.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day17/configure.py" afterDir="false" />
@@ -15,36 +16,147 @@
       <change afterPath="$PROJECT_DIR$/day18/demo1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day11/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/test.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/day14/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14/socket.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/day15/sendattach.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/sendemail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/sendhtml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="958715920">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="6" />
+          <entry key="pyi" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="6" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="296" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="296" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="demo1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day18/demo1.py">
+=======
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day14/download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1534231947759" expanded="true" signature="99:100" ph="..." />
+                <marker date="1534231947759" expanded="true" signature="99:105" ph="..." />
+                <marker date="1534231947759" expanded="true" signature="376:377" ph="..." />
+=======
+      <file leaf-file-name="sendattach.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day15/sendattach.py">
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
               <folding>
+<<<<<<< HEAD
                 <element signature="e#0#29#0" expanded="true" />
+=======
+                <element signature="e#43#57#0" expanded="true" />
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/collections/demo.py">
+=======
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day14/socket.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+=======
+      <file leaf-file-name="sendhtml.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day15/sendhtml.py">
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="394">
               <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
+<<<<<<< HEAD
                 <element signature="e#0#35#0" expanded="true" />
+=======
+                <element signature="e#43#57#0" expanded="true" />
               </folding>
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1099968596/_socket.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3151">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
+=======
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day15/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sendemail.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day15/sendemail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
+              </folding>
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
             </state>
           </provider>
         </entry>
@@ -60,11 +172,18 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+      <find>DownlaodHandler</find>
+=======
       <find>smtper</find>
       <find>login</find>
+<<<<<<< HEAD
       <find>auxiliary_module</find>
       <find>received</find>
       <find>logging.conf</find>
+=======
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
     </findStrings>
     <replaceStrings>
       <replace />
@@ -82,6 +201,28 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/day10/test.py" />
         <option value="$PROJECT_DIR$/day11/致橡树.txt" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/day11/test.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/day14/download.py" />
+        <option value="$PROJECT_DIR$/day14/socket.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="769" />
+    <option name="y" value="39" />
+    <option name="width" value="1030" />
+    <option name="height" value="893" />
+=======
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
         <option value="$PROJECT_DIR$/day15/sendemail.py" />
         <option value="$PROJECT_DIR$/day15/test.txt" />
         <option value="$PROJECT_DIR$/day15/sendhtml.py" />
@@ -107,6 +248,7 @@
     <option name="x" value="506" />
     <option name="width" value="785" />
     <option name="height" value="820" />
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,26 +257,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
               <item name="pratice" type="b2602c69:ProjectViewProjectNode" />
               <item name="pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="2and3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pratice" type="b2602c69:ProjectViewProjectNode" />
               <item name="pratice" type="462c0819:PsiDirectoryNode" />
-              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="day15" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -252,6 +428,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="769" y="39" width="1030" height="893" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2927835" />
+=======
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24904943" />
@@ -260,23 +442,50 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.30378097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27553764" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30378097" />
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+=======
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/day11/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -336,50 +545,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day11/致橡树.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2507">
-          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pip/_vendor/distlib/util.py">
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="412" column="28" lean-forward="true" selection-start-line="412" selection-start-column="28" selection-end-line="412" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pygame/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1099968596/pygame/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1099968596/pygame/display.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pygame/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1099968596/pygame/base.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1099968596/pygame/display.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/day10/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -390,6 +579,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day14/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1534231947759" expanded="true" signature="99:100" ph="..." />
+            <marker date="1534231947759" expanded="true" signature="99:105" ph="..." />
+            <marker date="1534231947759" expanded="true" signature="376:377" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="132" column="6" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1099968596/_socket.py">
+=======
+    <entry file="file://$PROJECT_DIR$/day11/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
+    <entry file="file://$PROJECT_DIR$/day11/致橡树.txt">
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3151">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/day14/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/day13/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> 40712172cffc85c81b417e5d43a974a22f11c8c3
     <entry file="file://$PROJECT_DIR$/day15/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -424,6 +669,7 @@
           <folding>
             <element signature="e#43#57#0" expanded="true" />
           </folding>
+>>>>>>> 118612d7d2d839256ab7360d8310ae8ba209b0be
         </state>
       </provider>
     </entry>

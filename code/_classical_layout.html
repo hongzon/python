@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Logo</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <div class="banner-content"></div>
+    </div>
+    <div class="content">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+    </div>
+    <div class="footer">
+        © Copyright 2011
+    </div>
+</body>
+</html>
+<style>
+    * {
+        margin:0;
+        padding:0;
+    }
+    li {
+        list-style: none;
+    }
+    body {
+        width: 100%
+    }
+    .header {
+        width: 960px;
+        margin: 10px auto ;
+        background: #D3D3D3;
+        overflow: hidden;
+    }
+    .header h1 {
+        text-align: center;
+        margin: 10px 0 ;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header ul {
+        width: 600px;
+        margin: 10px auto;
+        height: 35px;
+    }
+    .header ul li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        line-height: 35px;
+    }
+    .header ul li:hover {
+        border-bottom: 4px solid red;
+    }
+    .banner {
+        background: #ADD8E6;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    .banner-content {
+        width: 1920px;
+        position: relative;
+        left: 50%;
+        margin-left:-960px; 
+        height: 300px;
+    }
+    .content {
+        width: 960px;
+        margin:0 auto;
+        overflow: hidden;
+    }
+    .content div {
+        float: left;
+        width: 300px;
+        height: 200px;
+    }
+    .one {
+        background-color: pink;
+        margin-right: 30px;
+    }
+    .two {
+        background-color: orange;
+        margin-right: 30px;
+    }
+    .three {
+        background-color:green;
+    }
+    .footer {
+        background-color: grey;
+        text-align: center;
+        margin:10px 0;
+        line-height: 35px;
+    }
+</style>

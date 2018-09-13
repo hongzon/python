@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="#">
+		<h1>用户登录</h1>
+		<div>
+			<label for="username">用户名：</label>
+			<input type="text" name="username" id="username" />
+		</div>
+		<div>
+			<label for="passwd">密码：</label>
+			<input type="password" name="passwd" id="passwd" />
+		</div>
+		<div>
+			<label for="email">邮箱：</label>
+			<input type="text" name="email" id="email" />
+		</div>
+		<div id="sbumit-wrap">
+			<input type="submit" id="submit" value="登录" />
+		</div>
+	</form>		
+</body>
+</html>
+<style>
+
+	h1 {
+		width: 80px;
+		text-align: center;
+		background-color: grey;
+		color: #333;
+		font-size: 15px;
+		border-radius: 5px;
+		height: 25px;
+		line-height: 25px;
+		position: relative;
+		top: -22px;
+		left: 15px;
+	}
+	form {
+		width: 280px;
+		margin:0 auto;
+		border: 2px solid #bbb;
+		border-radius: 10px;
+	}
+	label {
+		width: 80px;
+		text-align: right;
+		display: inline-block;
+	}
+	div {
+		margin: 20px 0;
+	}
+	input {
+		border: none;
+		border-bottom: 1px dotted #bbb;
+	}
+	#sbumit-wrap {
+		/*overflow: hidden;*/
+	}
+	#submit {
+		margin-left: 180px;
+		border-radius: 6px;
+		color: #fff;
+		background-color: red
+	}
+</style>

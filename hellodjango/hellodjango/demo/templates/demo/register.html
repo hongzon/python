@@ -21,9 +21,10 @@
 <body>
     <h1>用户注册</h1>
     <div id="reg">
+        {{f.non_form_errors}}
         <p class="hint">{{ hint }}</p>
         <ol>
-            {% for error in form.username.errors %}
+            {% for error in f.username.errors %}
                 <li><strong>{{ error|escape }}</strong></li>
             {% endfor %}
         </ol>
@@ -31,7 +32,8 @@
             {% csrf_token %}
             <div>用户名:</div>
             <div>
-                {{ f.username }}
+                <!--<input type="text" name="username" id="id_username">-->
+                {{f.username}}
                 <span id="uhint"></span>
                 {% if f.errors.username %}
                     <span class="hint">用户名无效或者已经被注册</span>
@@ -39,14 +41,14 @@
             </div>
             <div>密码: </div>
             <div>
-                {{ f.password }}
+                <input type="password" name="password"  id="id_password">
                 {% if f.errors.password %}
                     <span class="hint">无效的密码</span>
                 {% endif %}
             </div>
             <div>邮箱: </div>
             <div>
-                {{ f.email }}
+                <input type="text" name="email" id="id_email">
                 {% if f.errors.email %}
                     <span class="hint">无效的邮箱</span>
                 {% endif %}

@@ -2,7 +2,8 @@ from django.db import models
 from django.db.models import PROTECT
 # Create your models here.
 from hashlib import sha1
-
+from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.models import ContentType
 proto = sha1()
 
 TITLE_CHOICES = (
@@ -30,11 +31,12 @@ class Teacher(models.Model):
     intro = models.CharField(max_length=1023, db_column='tintro', verbose_name='简介')
     motto = models.CharField(max_length=255, db_column='tmotto', verbose_name='教学理念')
     photo = models.CharField(max_length=511, db_column='tphoto', verbose_name='照片', null=True, blank=True)
-    subject = models.ForeignKey(Subject, db_column='sno', on_delete=PROTECT, related_name='aaa', verbose_name='所属学科')
+    # subject = models.ForeignKey(Subject, db_column='sno', on_delete=PROTECT, related_name='aaa', verbose_name='所属学科')
+    subject = models.ManyToManyField(Subject, related_name='Subjects')
     manager = models.BooleanField(default=False, db_column='tmanager', verbose_name='是否主管')
     good_count = models.IntegerField(default=0, db_column='tgcount', verbose_name='好评数')
     bad_count = models.IntegerField(default=0, db_column='tbcount', verbose_name='差评数')
-
+    time = models.DateField(db_column="time", verbose_name="时间")
     @property
     def bcount(self):
         return f'{self.bad_count}' if self.bad_count <= 999 else '999+'
@@ -45,6 +47,8 @@ class Teacher(models.Model):
         db_table = 'tb_teacher'
         verbose_name = '讲师'
         verbose_name_plural = '讲师'
+    def __str__(self):
+        return self.name
 class User(models.Model):
     no = models.AutoField(primary_key=True, db_column='no', verbose_name="编号")
     username = models.CharField(max_length=20, unique=True, verbose_name="用户名")
@@ -63,3 +67,18 @@ class User(models.Model):
         db_table = 'tb_user'
         verbose_name = '用户'
         verbose_name_plural = '用户'
+
+class Membership(models.Model):
+    subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
+    date_joined = models.DateField()
+    invite_reason = models.CharField(max_length=64)
+
+class TaggedItem(models.Model):
+    tag = models.SlugField()
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+
+    def __str__(self):
+        return self.tag

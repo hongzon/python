@@ -5,6 +5,7 @@ import json
 from django.urls import reverse
 from .forms import UserForm
 from django.forms.models import model_to_dict
+from django.forms import ValidationError
 # Create your views here.
 
 def logout(requset):
@@ -56,6 +57,8 @@ def register(request):
                 form.save(commit=True)
                 ctx['hint'] = '注册成功请登录!'
                 return render(request, 'demo/login.html', ctx)
+        except ValidationError as e:
+            print(e);
         except:
             ctx['hint'] = '注册失败, 请重新尝试!'
     return render(request, 'demo/register.html', ctx)
